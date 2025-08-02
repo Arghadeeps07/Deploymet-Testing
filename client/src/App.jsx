@@ -17,7 +17,7 @@ function App() {
   return (
     <div className="app-container">
       <h1>React + Node.js Test</h1>
-      <button onClick={fetchMessage}>Call API</button>
+      <button onClick={fetchMessage}>Get Response</button>
       {message && <p>{message}</p>}
     </div>
   );
